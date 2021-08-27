@@ -1,6 +1,5 @@
 
-import './App.css';
-
+import './Sass/App.scss';
 import About from './components/About';
 import Nav from './components/Nav'
 import Contact from './components/Contact'
