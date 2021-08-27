@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-function About(props) {
+function About() {
     return (
-        <div>
-            
+        <div id='about'>
+            <h1>About Me</h1>
         </div>
     )
 }

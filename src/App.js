@@ -4,35 +4,32 @@ import About from './components/About';
 import Nav from './components/Nav'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
+import {Route, Switch} from 'react-router-dom'
 
-import { useState } from 'react';
+//import { useState } from 'react';
 
 function App() {
 
-    const [currentPage, handlePageChange] = useState('Home');
+    //const [currentPage, handlePageChange] = useState('Home');
   
     const renderPage = () => {
       // Add a switch statement that will return the appropriate component of the 'currentPage
-      
-        switch(currentPage){
-          case 'About':
-            return <About/>
-          case 'Blog':
-            return <Projects/>
-          case 'Contact':
-            return <Contact/>
-          default:
-            return <About/>
-        }
+      <Switch>
+        <Route path='/About' component={About} />
+        <Route path='/projects' component={Projects} />
+        <Route path='/contact' component={Contact} />
+      </Switch>
     };
 
 
   return (
     <div className="App">
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
+        <Nav />
         <About />
         <Projects/>
         <Contact />
+        <Footer />
         {
           // Render the component returned by 'renderPage()'
           renderPage()
