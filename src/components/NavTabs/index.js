@@ -43,7 +43,7 @@ function NavTabs(props) {
                     <Nav.Link onClick={() => props.handlePageChange('About')} href='#about'>About</Nav.Link>
                     <Nav.Link onClick={() => props.handlePageChange('Projects')} href='#projects'>Projects</Nav.Link>
                     <Nav.Link onClick={() => props.handlePageChange('Contact')} href='#contact'>Contact</Nav.Link>
-                    <Nav.Link onClick={() => props.handlePageChange('Resume')} href='#resume'>Contact</Nav.Link>
+                    <Nav.Link onClick={() => props.handlePageChange('Resume')} href='#resume'>Resume</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
