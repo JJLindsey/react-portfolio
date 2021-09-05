@@ -53,10 +53,10 @@ function Projects() {
     ]
 
     return (
-        <Container fluid>
+        <Container id='projects' fluid>
             <Row>
                 <Col>
-                    <h1>Hello! </h1>
+                    <h1> Portfolio </h1>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src={portfolio.img} />
                         <Card.Body>
@@ -64,8 +64,8 @@ function Projects() {
                             <Card.Text>
                                 {portfolio.description}
                             </Card.Text>
-                            <Button variant="primary">{portfolio.github}</Button>
-                            <Button variant="primary">{portfolio.deployed}</Button>
+                            <Button variant="primary">GitHub{portfolio.github}</Button>
+                            <Button variant="primary">Link{portfolio.deployed}</Button>
                         </Card.Body>
                     </Card>
                 </Col>
