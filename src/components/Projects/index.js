@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { BsEnvelope } from 'react-icons/bs'
 
 import React from 'react'
 
@@ -55,6 +57,7 @@ function Projects() {
     return (
         <Container id='projects' fluid>
             <Row>
+                {portfolio.map((portfolio) => (
                 <Col>
                     <h1> Portfolio </h1>
                     <Card style={{ width: '18rem' }}>
@@ -69,6 +72,7 @@ function Projects() {
                         </Card.Body>
                     </Card>
                 </Col>
+                ))}
             </Row>
         </Container>
     )
