@@ -34,9 +34,10 @@ function Contact(props) {
         }
     }
     return (
-        <div>
+        <div class='container-fluid'>
             <h1> Contact Me </h1>
-            <Form id='contact' onSubmit={handleSubmit}>
+            <row>
+            <Form id='contact-info' onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>name</Form.Label>
                     <Form.Control type="text" name="name" placeholder="name" defaultValue={name} onBlur={handleChange} />
@@ -49,10 +50,11 @@ function Contact(props) {
                     <Form.Label>message</Form.Label>
                     <Form.Control as="textarea" name="message" rows={3} defaultValue={message} onBlur={handleChange} />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <Button variant="secondary" type="submit">
                     Submit
                 </Button>
             </Form>
+            </row>
 
         </div>
     )

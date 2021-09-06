@@ -7,12 +7,14 @@ import Contact from './components/Contact'
 import Projects from './components/Projects'
 //import Footer from './components/Footer'
 import Resume from './components/Resume'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { useState } from 'react';
 
 function App() {
 
-  const [currentPage, handlePageChange] = useState('Home');
+  const [currentPage, handlePageChange] = useState('Home')
+  //const [contactSelected, setContactSelected] = useState(false)
 
   const renderPage = () => {
     switch (currentPage) {

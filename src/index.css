@@ -1,10 +1,120 @@
-body {
-    height: 100%;
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    color:lightsteelblue;
-    background: black;
+:root {
+    --primary:  #171C26;
+    --secondary: #747C8C;
+    --tertiary: #163A59;
+    --light: #f4f8f9;
+    --dark: #000000;
+    --background-color: #122E40;
 }
 
 
+html,
+body {
+min-height: 100%;
+}
 
+body {
+margin: 0;
+padding: 0;
+font-weight: 600;
+line-height: 1.5;
+font-size: 18px;
+letter-spacing: .1em;
+background: var(--dark);
+color: var(--light);
+font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+    width: 92%;
+}
+
+#home {
+    transform:skew(60deg, -30deg) scaleY(.66667);
+}
+
+#about,
+#projects {
+    display: flex;
+    background-color: var(--dark);
+    color: var(--light);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+#about-info {
+    margin: auto 15rem;
+    font-size: 24px;
+}
+
+.img-about {
+    max-width: 50%;
+    clip-path: circle(45%);
+}
+
+.card {
+    display: flex;
+    /*flex-direction: column; */
+    margin: 10px 0 20px 0;
+    border: 3px solid var(--light);
+    border-radius: var(--border-radius);
+    background-color: var(--secondary);
+    color: var(--dark);
+    min-height: 180px;
+}
+
+.card-body {
+    padding: .5rem 2rem;
+    display:inline;
+    max-height: 20rem;
+    min-height: 20rem;
+}
+
+.card-img {
+    margin-top: 9px;
+    min-height: 180px;
+    max-height: 250px;
+}
+
+.card-img-top {
+    max-height: 13rem;
+    min-height: 13rem;
+    margin: 5px auto;
+}
+
+  /* FORM */
+
+#contact {
+    display:flexbox;
+    background-color: var(--tertiary);
+    margin-bottom: 25rem;
+    max-width: 80%;
+}
+
+.form-label,
+.form-input,
+.form-textarea {
+    display:block;
+}
+
+.form-label {
+display: block;  
+font-size: 1.2rem;
+margin: 0.625rem 0 0.25rem;
+}
+
+.form-input {
+    width: 85%;
+    padding: 0.75rem;
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+    border: 2px solid var(--dark);
+    border-radius: var(--border-radius);
+}
