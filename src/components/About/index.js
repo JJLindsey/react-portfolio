@@ -5,9 +5,9 @@ import profileImg from '../../assets/cartoonJenn2.jpg'
 function About() {
     return (
         <div id='about'>
-            <h1>Jennifer Lindsey</h1>
+            <h1>About Me</h1>
                 <div class="img-about">
-                <img src={profileImg} alt='avatar image of Jennifer'/>
+                <img src={profileImg} alt='avatar of Jennifer'/>
                 </div>
                 <p>
             I am a Front End Web Developer, visual artist, and (former) art historian.

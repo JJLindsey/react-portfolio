@@ -5,7 +5,8 @@ import About from './components/About';
 import NavTabs from './components/NavTabs'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import Footer from './components/Footer'
+//import Footer from './components/Footer'
+import Resume from './components/Resume'
 
 import { useState } from 'react';
 
@@ -15,14 +16,16 @@ function App() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'About':
-        return <About />;
+      case 'Home':
+        return <Home/>;
+      case 'Resume':
+        return <Resume />;
       case 'Projects':
         return <Projects />;
       case 'Contact':
         return <Contact />;
       default:
-        return <Home />;
+        return <About />;
     }
   };
 

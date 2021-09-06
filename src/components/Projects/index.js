@@ -1,10 +1,6 @@
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { BsEnvelope } from 'react-icons/bs'
+import {Container, Row, Col, Card, Button } from 'react-bootstrap'
+// import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+// import { BsEnvelope } from 'react-icons/bs'
 
 import React from 'react'
 
@@ -13,28 +9,28 @@ function Projects() {
         {
             name:'State of the Art',
             description: 'A full stack application that will allow museum curators to locate works of art globally.',
-            img: ('../../assets/app-images/StateArtScreen.png'),
+            img: require('../../assets/app-images/StateArtScreen.png').default,
             github: 'https://github.com/JJLindsey/ArtFiles2',
             deployed:'https://state-of-art.herokuapp.com/'
         },
         {
             name:'Brewed Force',
             description:'A website designed to unite the beer minded traveler with new breweries and beers in new cities. By entering a city into our search feature, the user will be met with a list of breweries in that city.',
-            img:'../../assets/app-images/brewed-force.png',
+            img:require('../../assets/app-images/brewed-force.png').default,
             github:'https://github.com/JJLindsey/brewed-force',
             deployed:'https://takes101.github.io/globe-trotting-and-bar-hopping/'
         },
         {
             name:'Budget Tracker',
             description:'The user can add expenses/deposits to their budget with or without a connection.',
-            img:'../../assets/app-images/budget.png',
+            img:require('../../assets/app-images/budget.png').default,
             github:'https://github.com/JJLindsey/budget-tracker',
             deployed:' https://budget-trackerjl.herokuapp.com/'
         },
         {
             name:'Team Profile Generator',
             description:'This application allows the user to generate a team profile based on user input using Node.js. Build your Team online profile, incl. Name/Title/ID/Email and dynamically generate the HTML',
-            img:'../../assets/app-images/TeamProf.png',
+            img:require('../../assets/app-images/TeamProf.png').default,
             github:'https://github.com/JJLindsey/Team-profile',
             deployed:''
         },
@@ -55,20 +51,20 @@ function Projects() {
     ]
 
     return (
+
         <Container id='projects' fluid>
             <Row>
                 {portfolio.map((portfolio) => (
                 <Col>
-                    <h1> Portfolio </h1>
                     <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={portfolio.img} />
+                        <Card.Img variant="top" src={portfolio.img} fluid />
                         <Card.Body>
                             <Card.Title>{portfolio.name}</Card.Title>
                             <Card.Text>
                                 {portfolio.description}
                             </Card.Text>
-                            <Button variant="primary">GitHub{portfolio.github}</Button>
-                            <Button variant="primary">Link{portfolio.deployed}</Button>
+                            <Button variant='info' href={portfolio.github} target='_blank'>GitHub</Button>
+                            <Button variant='warning' href={portfolio.deployed} target='_blank'>Application</Button>
                         </Card.Body>
                     </Card>
                 </Col>
