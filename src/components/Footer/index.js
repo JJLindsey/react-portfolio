@@ -14,7 +14,6 @@ const Footer = () => {
                 </a>
                 <a href='mailto:jlindsey010@gmail.com' target='_blank' rel='noopener noreferrer' alt='email link'>
                     <BsEnvelope/>
-                    'jlindsey010@gmail.com'
                 </a>
                 
             </p>
