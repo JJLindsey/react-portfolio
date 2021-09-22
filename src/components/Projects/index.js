@@ -34,13 +34,13 @@ function Projects() {
             github:'https://github.com/JJLindsey/Team-profile',
             deployed:''
         },
-        // {
-        //     name:
-        //     description:
-        //     img:
-        //     github:
-        //     deployed:  
-        // },
+        {
+            name:'One Stop Print Shop',
+            description:'Full Stack E-commerce store with Stripe payment',
+            img:require('../../assets/app-images/screenshot.png').default,
+            github:'https://github.com/JJLindsey/One-Stop-Print-Shop',
+            deployed:'https://one-stop-print-shop.herokuapp.com/'
+        }
         // {
         //     name:
         //     description:

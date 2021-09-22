@@ -5,7 +5,7 @@ import About from './components/About';
 import NavTabs from './components/NavTabs'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-//import Footer from './components/Footer'
+import Footer from './components/Footer'
 import Resume from './components/Resume'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -44,16 +44,15 @@ function App() {
     //       renderPage()
     //     } */}
     // </div>
-    <div>
+    <>
       {/* Pass the state value and the setter as props to NavTabs */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
-      <div>{renderPage(currentPage)} </div>
       <main>
-
+      <div>{renderPage(currentPage)} </div>
       </main>
-
-    </div>
+    <Footer/>
+    </>
     
   );
 }
