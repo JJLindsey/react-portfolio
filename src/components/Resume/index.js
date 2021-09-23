@@ -2,18 +2,19 @@ import React from 'react'
 //import { Container } from 'react-bootstrap'
 import { BiCode, BiCodeAlt } from 'react-icons/bi'
 //import { VscMilestone } from 'react-icons/vsc'
+import './style.scss';
 
 const Resume = () => {
     return (
                 <div className="container">
-                    <div class="row">
-                        <div class="col-md-10 col-md-offset-1">
-                            <div class="title text-center">
+                    <div className="row">
+                        <div className="col-md-10 col-md-offset-1">
+                            <div className="title text-center">
                                 <h2> <BiCode/> Resume <BiCodeAlt/></h2>
                                 <h1>Jennifer Lindsey</h1>
                                 <h3>Front End Developer</h3>
                                 <hr />
-                                <ul class="list-inline">
+                                <ul className="list-inline">
                                     <li><i class="devicon-graphql-plain colored"></i></li>
                                     <li><i class="devicon-javascript-plain colored"></i></li>
                                     <li><i class="devicon-html5-plain colored"></i></li>

@@ -27,7 +27,7 @@ font-family: 'Montserrat', sans-serif;
 
 .container-fluid {
     width: 100%;
-    background-color: var(--dark);
+    /*background-color: var(--dark);*/
 }
 
 /*NAV */
@@ -37,7 +37,7 @@ font-family: 'Montserrat', sans-serif;
 
  /*HOME */
 .home {
-    background-color:white !important;
+    background-color:white!important;
 }
 
 .main {
@@ -118,7 +118,7 @@ font-family: 'Montserrat', sans-serif;
     /*flex-direction: column; */
     margin: 10px 0 20px 0;
     border: 3px solid var(--light);
-    border-radius: var(--border-radius);
+    border-radius: 50%;
     background-color: var(--secondary);
     color: var(--dark);
     min-height: 180px;
