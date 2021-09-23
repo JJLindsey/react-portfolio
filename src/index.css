@@ -179,9 +179,8 @@ color: var(--light);
     flex-direction: column;
     align-items:flex-start;
     text-decoration: none;
-    background-color: var(--dark);
-    color: var(--light);
 }
+
 ul, li {
     list-style-type: none;
     text-align: left;
