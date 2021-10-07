@@ -1,0 +1,62 @@
+body {
+    background-color:white;
+    color:black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+
+}
+
+.section {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+    
+a {
+  color: #DB4D57;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+    
+hr {
+  width: 100%;
+}
+
+.list-inline{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly
+}
+
+.summary {
+  padding: 20px;
+  }
+    
+p {
+  font-size: 1rem;
+  letter-spacing: .2rem;
+}
+
+.skill-row {
+  display: inline-table;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}

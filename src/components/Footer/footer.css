@@ -1,0 +1,10 @@
+/*FOOTER*/
+#footer {
+    position: fixed;
+    width: 100%
+}
+
+svg {
+    font-size: 2rem;
+    margin: 0 1 rem;
+}

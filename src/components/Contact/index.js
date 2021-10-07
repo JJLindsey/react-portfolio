@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Form, Button } from 'react-bootstrap'
 import { validateEmail } from '../../utils/helpers'
-
+import './contact.css'
 
 function Contact(props) {
     const [formState, setformState] = useState({ name: '', email: '', message: '' })
@@ -34,7 +34,7 @@ function Contact(props) {
         }
     }
     return (
-        <div class='container-fluid'>
+        <div className='contact'>
             <h1> Contact Me </h1>
             <row>
             <Form id='contact-info' onSubmit={handleSubmit}>

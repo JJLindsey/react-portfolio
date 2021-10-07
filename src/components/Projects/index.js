@@ -1,6 +1,7 @@
 import {Container, Row, Col, Card, Button } from 'react-bootstrap'
 // import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 // import { BsEnvelope } from 'react-icons/bs'
+import './projects.css'
 
 import React from 'react'
 

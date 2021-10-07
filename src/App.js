@@ -49,7 +49,7 @@ function App() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Call the renderPage function passing in the currentPage */}
       <main>
-      <div>{renderPage(currentPage)} </div>
+      <div className="section">{renderPage(currentPage)} </div>
       </main>
     <Footer/>
     </>
