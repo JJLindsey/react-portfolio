@@ -8,13 +8,13 @@ import './resume.css';
 
 const Resume = () => {
     return (
-                <div className="container text-center">
+                <div className="container-resume text-center">
                     <div className="row">
                         <div className="col">
                             <div className="title text-center">
-                                <h2> <BiCode/> Resume <BiCodeAlt/></h2>
-                                <h1>Jennifer Lindsey</h1>
-                                <h3>Front End Developer</h3>
+                                <h3> <BiCode/> Resume <BiCodeAlt/></h3>
+                                <h3>Jennifer Lindsey</h3>
+                                <h4>Front End Developer</h4>
                                 <hr/>
                                 <ul className="list-inline">
                                     <li><SiGraphql/></li>
@@ -50,11 +50,11 @@ const Resume = () => {
                         </div>
 
                             <div class="work-experience">
-                                <h2 class="text-center">Experience</h2>
+                                <h4 class="text-center">Experience</h4>
                                 <div class="row experience-title">
-                                    <div class="col">
-                                        <h4>Vanderbilt Fullstack Coding Bootcamp</h4>
-                                        <h5>Vanderbilt University</h5>
+                                    <div class="col-exp">
+                                        <h6>Vanderbilt Fullstack Coding Bootcamp</h6>
+                                        <h6>Vanderbilt University</h6>
                                     </div>
                                         <h6>April 2021 - Sep 2021</h6>
                                 </div>
@@ -68,8 +68,8 @@ const Resume = () => {
 
                                 <div class="row experience-title">
                                     <div class="col">
-                                        <h4>Kimbell Art Museum</h4>
-                                        <h5>Museum Educator</h5>
+                                        <h6>Kimbell Art Museum</h6>
+                                        <h6>Museum Educator</h6>
                                     </div>
                                         <h6>2019 - 2020</h6>
                                 </div>
@@ -82,6 +82,46 @@ const Resume = () => {
                                             context.
                                         </p>
                                     </div>
+                                </div>
+                                <div class="row experience-title">
+                                    <div class="col">
+                                        <h6>Mindful Pose</h6>
+                                        <h6>Yoga & Meditation Instructor</h6>
+                                    </div>
+                                        <h6>2012 - present</h6>
+                                </div>
+                                <div class="row experience-summary">
+                                    <div class="col-md-12">
+                                        <p>Teaching hatha yoga, mindful flow, yoga nidra and meditation classes in corporate and private sessions. Providing a safe & supportive environment for all levels of practitioners.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row experience-title">
+                                    <div class="col">
+                                        <h6>Southern New Hampshire University</h6>
+                                        <h6>Adjunct Art History Pofessor</h6>
+                                    </div>
+                                        <h6>2013 - 2015</h6>
+                                </div>
+                                <div class="row experience-summary">
+                                    <div class="col-md-12">
+                                        <p>Taught Modern Art, Art History and Art Appreciation courses in an online environment, engaging students through discussion board and article reflections, & journals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education">
+                                <h6 class="text-center">Education</h6>
+                                <div class="row education-title">
+                                    <div class="col-ed">
+                                        <p>The Courtauld Institute of Art</p>
+                                        <p>MA - Art History</p>
+                                    </div>
+                                </div>
+                                <div class="col-ed">
+                                        <p>The University of Texas, Arlington</p>
+                                        <p>BA - Art History</p>
                                 </div>
                             </div>
                         </div>

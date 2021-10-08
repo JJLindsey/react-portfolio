@@ -5,13 +5,19 @@ body {
     font-size: 1rem;
 
 }
+.container-resume {
+  display: inline-block;
+  margin: 0 9rem;
+}
 
+.row {
+  display: inline-block;
+}
 
 .title {
   margin-top: 100px;
   margin-bottom: 10px;
 }
-
     
 hr {
   width: 100%;
@@ -29,12 +35,16 @@ hr {
   }
     
 p {
-  font-size: 1rem;
+  font-size: 0.75rem;
   letter-spacing: .2rem;
 }
 
 .skill-row {
   display: inline-table;
+}
+
+.col-ed {
+  line-height: 0.25rem;
 }
 
 
