@@ -19,7 +19,7 @@ npm install
 
 * Enter `npm start` to connect to the localhost and open the application.
 
-[deployed link](https://jjlindsey.github.io/react-portfolio/)
+**[View my Portfolio](https://jjlindsey.github.io/react-portfolio/)**
 
 ### **Technologies Used:**
  React
