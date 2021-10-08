@@ -1,5 +1,5 @@
 import {Container, Row, Col, Card, Button } from 'react-bootstrap'
-// import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub} from 'react-icons/fa'
 // import { BsEnvelope } from 'react-icons/bs'
 import './projects.css'
 
@@ -59,19 +59,22 @@ function Projects() {
     return (
 
         <Container id='projects' fluid>
+            <div className='flex flex-col w-full mb-10'>
+                <h3 className='title-font mb-4 text-white'>Apps I have Built</h3>
+            </div>
             <Row>
                 {portfolio.map((portfolio) => (
                 <Col>
                     <Card style={{ width: '16rem' }}>
-                        <Card.Img variant="top" src={portfolio.img} fluid />
                         <Card.Body>
-                            <Card.Title>{portfolio.name}</Card.Title>
-                            <Card.Text>
-                                {portfolio.description}
-                                {portfolio.technology}
-                            </Card.Text>
-                            <Button variant='info' href={portfolio.github} target='_blank'>GitHub</Button>
-                            <Button variant='warning' href={portfolio.deployed} target='_blank'>Application</Button>
+                            <Card.Img variant="top" src={portfolio.img} fluid />
+                                <Card.Title>{portfolio.name}</Card.Title>
+                                <Card.Text>
+                                    {portfolio.description}
+                                    {portfolio.technology}
+                                </Card.Text>
+                                <a id='git' href={portfolio.github} target='_blank' rel="noreferrer"> <FaGithub/> </a>
+                                <Button variant='info' href={portfolio.deployed} target='_blank'>App</Button>
                         </Card.Body>
                     </Card>
                 </Col>
