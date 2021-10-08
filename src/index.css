@@ -43,7 +43,6 @@ font-family: 'Montserrat', sans-serif;
 .main {
     height: 80vh;
     width: 100%;
-    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,12 +54,12 @@ font-family: 'Montserrat', sans-serif;
     background-image: url('../src/assets/images/codePic.png');
     background-size: 100% 100%;
     background-position: center;
-    font-size: 200px;
+    font-size: 125px;
     font-optical-sizing:inherit;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    line-height: 150px;
+    line-height: 95px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -101,46 +100,6 @@ font-family: 'Montserrat', sans-serif;
     color: var(--light);
     padding-top: 1rem;
     text-align: center;
-}
-
-#about-info {
-    margin: auto 15rem;
-    font-size: 24px;
-}
-
-.img-about {
-    max-width: 25%;
-    clip-path: circle(45%);
-}
-
-.card {
-    display: flex;
-    /*flex-direction: column; */
-    margin: 10px 0 20px 0;
-    border: 3px solid var(--light);
-    border-radius: 4px;;
-    background-color: var(--secondary);
-    color: var(--dark);
-    min-height: 180px;
-}
-
-.card-body {
-    padding: .5rem 2rem;
-    display:inline;
-    max-height: 20rem;
-    min-height: 20rem;
-}
-
-.card-img {
-    margin-top: 9px;
-    min-height: 180px;
-    max-height: 250px;
-}
-
-.card-img-top {
-    max-height: 13rem;
-    min-height: 13rem;
-    margin: 5px auto;
 }
 
   /* FORM */
@@ -184,15 +143,4 @@ ul, li {
     display: block;
     margin: 0 5px;
     text-align:left;
-}
-
-/*FOOTER*/
-#footer {
-    position: fixed;
-    width: 100%
-}
-
-svg {
-    font-size: 2rem;
-    margin: 0 1 rem;
 }

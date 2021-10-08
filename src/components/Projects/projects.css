@@ -1,3 +1,33 @@
 #projects {
     background-color: black;
 }
+
+.card {
+    display: flex;
+    /*flex-direction: column; */
+    margin: 10px 0 20px 0;
+    border: 3px solid var(--light);
+    border-radius: 4px;;
+    background-color: var(--secondary);
+    color: var(--dark);
+    min-height: 180px;
+}
+
+.card-body {
+    padding: .5rem 2rem;
+    display:inline;
+    max-height: 20rem;
+    min-height: 20rem;
+}
+
+.card-img {
+    margin-top: 9px;
+    min-height: 180px;
+    max-height: 250px;
+}
+
+.card-img-top {
+    max-height: 13rem;
+    min-height: 13rem;
+    margin: 5px auto;
+}

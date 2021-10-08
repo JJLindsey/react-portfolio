@@ -9,9 +9,7 @@ function About() {
                 <h1>About Me</h1>
                     <img className='img-about' src={profileImg} alt="avatar of Jennifer" />
                     <p id='about-info'>
-                    I am a Front End Web Developer, and visual art. I have translated my passion for design and learning new concepts into a career in web development, where I can help clients
-                    and customers seamlessly and intuitively interface with businesses and
-                    sources of information.
+                    Full Stack Web Developer with a background in Art & Design and a dedication to life-long learning. Effective at combining creativity and problem solving to develop user-friendly applications. Experience in collaborating to create and deliver materials that are accessible to all audiences.
                     </p>
             </row>
         </div>

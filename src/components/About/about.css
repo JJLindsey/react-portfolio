@@ -1,3 +1,17 @@
 #about{
     background-color: black;
 }
+
+.section {
+    width: 100%;
+}
+
+#about-info {
+    margin: .5rem 9rem;
+    font-size: 18px;
+}
+
+.img-about {
+    max-width: 25%;
+    clip-path: circle(45%);
+}

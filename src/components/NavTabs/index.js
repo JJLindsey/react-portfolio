@@ -1,6 +1,7 @@
 import {Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../../assets/JLlogo.svg'
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavTabs(props) {
 
@@ -24,11 +25,9 @@ function NavTabs(props) {
     //         ))}
     //     </ul>
     return (
-
-        <Navbar bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
             <Container>
             <Navbar.Brand href="#home">
-            
                 <img
                     alt=""
                     src={logo}
