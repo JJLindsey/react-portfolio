@@ -6,9 +6,15 @@
     font-size: .75rem;
 }
 
+.proj-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+}
 .card {
     display: flex;
-    /*flex-direction: column; */
+    flex-direction: row;
+    align-items: flex-start ;
     background-color: rgb(48, 63, 92);
     margin: 10px 0 20px 0;
     border: 3px solid rgb(48, 63, 92);

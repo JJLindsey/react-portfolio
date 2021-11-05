@@ -10,10 +10,6 @@ body {
   margin: 0 9rem;
 }
 
-.row {
-  display: inline-block;
-}
-
 .title {
   margin-top: 100px;
   margin-bottom: 10px;

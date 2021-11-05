@@ -51,14 +51,14 @@ const Resume = () => {
 
                             <div class="work-experience">
                                 <h4 class="text-center">Experience</h4>
-                                <div class="row experience-title">
+                                <div class="experience-title">
                                     <div class="col-exp">
                                         <h6>Vanderbilt Fullstack Coding Bootcamp</h6>
                                         <h6>Vanderbilt University</h6>
                                     </div>
                                         <h6>April 2021 - Sep 2021</h6>
                                 </div>
-                                <div class="row experience-summary">
+                                <div class="experience-summary">
                                     <div class="col-md-12">
                                         <p>24-week intensive program focused on gaining technical programming skills in HTML5, CSS3,
                                             JavaScript, jQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, GraphQL & ReactJS.
@@ -66,14 +66,14 @@ const Resume = () => {
                                     </div>
                                 </div>
 
-                                <div class="row experience-title">
+                                <div class="experience-title">
                                     <div class="col">
                                         <h6>Kimbell Art Museum</h6>
                                         <h6>Museum Educator</h6>
                                     </div>
                                         <h6>2019 - 2020</h6>
                                 </div>
-                                <div class="row experience-summary">
+                                <div class="experience-summary">
                                     <div class="col-md-12">
                                         <p>Work collaboratively with fellow museum educators to create and present interactive
                                             gallery & studio art programs using the elements & principles of art. Modeled critical
@@ -83,27 +83,27 @@ const Resume = () => {
                                         </p>
                                     </div>
                                 </div>
-                                <div class="row experience-title">
+                                <div class="experience-title">
                                     <div class="col">
                                         <h6>Mindful Pose</h6>
                                         <h6>Yoga & Meditation Instructor</h6>
                                     </div>
                                         <h6>2012 - present</h6>
                                 </div>
-                                <div class="row experience-summary">
+                                <div class="experience-summary">
                                     <div class="col-md-12">
                                         <p>Teaching hatha yoga, mindful flow, yoga nidra and meditation classes in corporate and private sessions. Providing a safe & supportive environment for all levels of practitioners.
                                         </p>
                                     </div>
                                 </div>
-                                <div class="row experience-title">
+                                <div class="experience-title">
                                     <div class="col">
                                         <h6>Southern New Hampshire University</h6>
                                         <h6>Adjunct Art History Pofessor</h6>
                                     </div>
                                         <h6>2013 - 2015</h6>
                                 </div>
-                                <div class="row experience-summary">
+                                <div class="experience-summary">
                                     <div class="col-md-12">
                                         <p>Taught Modern Art, Art History and Art Appreciation courses in an online environment, engaging students through discussion board and article reflections, & journals.
                                         </p>
@@ -113,7 +113,7 @@ const Resume = () => {
 
                             <div class="education">
                                 <h6 class="text-center">Education</h6>
-                                <div class="row education-title">
+                                <div class="education-title">
                                     <div class="col-ed">
                                         <p>The Courtauld Institute of Art</p>
                                         <p>MA - Art History</p>

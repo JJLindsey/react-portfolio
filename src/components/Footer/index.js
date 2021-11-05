@@ -5,7 +5,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div className ="footer-container" id='footer'>
+        <div className ="footer-container" id='socicon'>
             <section className="footer-info">
                 <a href='https://github.com/JJLindsey' target='_blank' rel='noopener noreferrer' alt='GitHub profile link'>
                     <FaGithub/>

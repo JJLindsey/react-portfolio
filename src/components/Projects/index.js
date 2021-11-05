@@ -62,7 +62,7 @@ function Projects() {
             <div className='flex flex-col w-full mb-10'>
                 <h3 className='title-font mb-4 text-white'>Apps I have Built</h3>
             </div>
-            <Row>
+            <Row className='proj-card'>
                 {portfolio.map((portfolio) => (
                 <Col>
                     <Card style={{ width: '16rem' }}>
@@ -80,7 +80,10 @@ function Projects() {
                 </Col>
                 ))}
             </Row>
+
         </Container>
+
+        
     )
 }
 
