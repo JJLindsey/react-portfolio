@@ -1,5 +1,5 @@
-import {Container, Row, Col, Card, Button } from 'react-bootstrap'
-import { FaGithub} from 'react-icons/fa'
+import {Container, Row, Card, Button } from 'react-bootstrap'
+import { FaGithub, FaPlayCircle} from 'react-icons/fa'
 // import { BsEnvelope } from 'react-icons/bs'
 import './projects.css'
 
@@ -62,7 +62,7 @@ function Projects() {
             <div className='flex flex-col w-full mb-10'>
                 <h3 className='title-font mb-4 text-white'>Apps I have Built</h3>
             </div>
-            <Row className='proj-card'>
+            {/* <Row className='proj-card'>
                 {portfolio.map((portfolio) => (
                 <Col>
                     <Card style={{ width: '16rem' }}>
@@ -78,6 +78,30 @@ function Projects() {
                         </Card.Body>
                     </Card>
                 </Col>
+                ))}
+            </Row> */}
+            <Row className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                {portfolio.map((portfolio) => (
+                <div class="col">
+                    <div class="card shadow-md">
+                        <img id='card-img' src={portfolio.img} width="100%" height="225" aria-label="app screenshot" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title>
+
+                        <Card.Body class="card-body">
+                        <Card.Title>{portfolio.name}</Card.Title>
+                            <Card.Text>
+                                {portfolio.description}
+                                {portfolio.technology}
+                            </Card.Text>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div>
+                            <a id='deploy' href={portfolio.deployed} target='_blank' rel="noreferrer"> <FaPlayCircle/> </a>
+                            <a id='git' href={portfolio.github} target='_blank' rel="noreferrer"> <FaGithub/> </a>
+                            </div>
+                        </div>
+                        </Card.Body>
+                    </div>
+                </div>
                 ))}
             </Row>
 

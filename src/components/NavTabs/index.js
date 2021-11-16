@@ -1,7 +1,8 @@
 import {Container, Nav, Navbar } from 'react-bootstrap';
-import logo from '../../assets/JLlogo.svg'
+import logo from '../../assets/cartoonJenn2.jpg'
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './nav.css'
 
 function NavTabs(props) {
 
@@ -33,7 +34,7 @@ function NavTabs(props) {
                     src={logo}
                     width="30"
                     height="30"
-                    className="d-inline-block align-top"
+                    className="logo d-inline-block align-top"
                 />{' '}
             Jennifer Lindsey
             </Navbar.Brand>
