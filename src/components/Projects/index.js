@@ -25,9 +25,17 @@ function Projects() {
             deployed:'https://takes101.github.io/globe-trotting-and-bar-hopping/'
         },
         {
+            name:'Mindful Pose',
+            description:'Meditation app COMING SOON',
+            technology: 'ReactJS, Express, MongoDB, HTML, CSS',
+            img:require('../../assets/app-images/particles.gif').default,
+            github:'',
+            deployed:''
+        },
+        {
             name:'Budget Tracker',
-            description:'Progressive Web App (PAW).The user can add expenses/deposits to their budget with or without a connection.',
-            technology: 'JS, Express, MONGODB, HTML, CSS',
+            description:'Progressive Web App (PWA).The user can add expenses/deposits to their budget with or without a connection.',
+            technology: 'JS, Express, MongoDB, HTML, CSS',
             img:require('../../assets/app-images/budget.png').default,
             github:'https://github.com/JJLindsey/budget-tracker',
             deployed:' https://budget-trackerjl.herokuapp.com/'
@@ -92,8 +100,10 @@ function Projects() {
                                 <Card.Img  fluid id='card-img' variant='top' src={portfolio.img}/>
                                 <Card.Title>{portfolio.name}</Card.Title>
                                     <Card.Text>
-                                        {portfolio.description}
-                                        {portfolio.technology}
+                                        <p>
+                                        {portfolio.description}</p>
+                                        <p>
+                                        {portfolio.technology}</p>
                                     </Card.Text>
                                 <div class="d-flex justify-content-center align-items-center">
                                     <div>

@@ -4,12 +4,20 @@
 }
 
 #contact-info {
-    background-color: lightblue;
-    margin: 4rem 13rem;
+    margin: 2rem 13rem;
     border: 1px solid white;
     border-radius: 5px;
 }
 
 .form-label {
     font-size: 0.75rem;
+}
+
+svg {
+    font-size: 2rem;
+    margin: 0;
+}
+
+a {
+    color:rgb(3, 183, 186);
 }

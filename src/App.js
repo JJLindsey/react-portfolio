@@ -5,8 +5,8 @@ import About from './components/About';
 import NavTabs from './components/NavTabs'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
-import Footer from './components/Footer'
-import Resume from './components/Resume'
+//import Footer from './components/Footer'
+// import Resume from './components/Resume'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { useState } from 'react';
@@ -20,8 +20,6 @@ function App() {
     switch (currentPage) {
       case 'Home':
         return <Home/>;
-      case 'Resume':
-        return <Resume />;
       case 'Projects':
         return <Projects />;
       case 'Contact':
@@ -51,7 +49,6 @@ function App() {
       <main>
       <div className="section">{renderPage(currentPage)} </div>
       </main>
-    <Footer/>
     </>
     
   );
