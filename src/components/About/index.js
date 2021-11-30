@@ -6,6 +6,7 @@ import iconNode from '../../assets/images/node.png'
 import iconReact from '../../assets/images/react.png'
 import iconMongo from '../../assets/images/mongo.png'
 import icongraph from '../../assets/images/graphql.png'
+import resume from '../../assets/JenniferLindseyDev.pdf'
 
 function About() {
     return (
@@ -29,7 +30,7 @@ function About() {
                     <img id='img-about' src={profileImg} className="featurette-image img-fluid" aria-label="profile" preserveAspectRatio="xMidYMid slice" focusable="false"/>
                 </div>
             </div>
-            <Button a href="../../assets/Jennifer Lindsey.pdf" download className="btn btn-secondary btn-lg">
+            <Button a href={resume} download='JenniferLindseyDev.pdf' className="btn btn-secondary btn-lg">
                 Download Resume
             </Button>
         </div>

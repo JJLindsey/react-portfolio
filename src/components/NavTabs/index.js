@@ -25,6 +25,10 @@ function NavTabs(props) {
     //             </li>
     //         ))}
     //     </ul>
+    // toggleCollapse = () => {
+    //     this.setState({ isOpen: !this.state.isOpen });
+    // }
+
     return (
         <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
             <Container>

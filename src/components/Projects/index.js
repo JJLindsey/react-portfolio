@@ -2,8 +2,6 @@ import {Container, Row, Card } from 'react-bootstrap'
 import { FaGithub, FaPlayCircle} from 'react-icons/fa'
 // import { BsEnvelope } from 'react-icons/bs'
 import './projects.css'
-import iphone from '../../assets/images/iPhone13Black.png'
-
 import React from 'react'
 
 function Projects() {
@@ -93,27 +91,22 @@ function Projects() {
                 {portfolio.map((portfolio) => (
                 <div class="col">
                     <div class="card shadow-md">
-
-                            <Card.Body class="card-body">
-                                <Card.Img className='phone'src={iphone}/>
-                                <Card.ImgOverlay>
-                                <Card.Img  fluid id='card-img' variant='top' src={portfolio.img}/>
-                                <Card.Title>{portfolio.name}</Card.Title>
-                                    <Card.Text>
-                                        <p>
-                                        {portfolio.description}</p>
-                                        <p>
-                                        {portfolio.technology}</p>
-                                    </Card.Text>
-                                <div class="d-flex justify-content-center align-items-center">
-                                    <div>
-                                    <a id='deploy' href={portfolio.deployed} target='_blank' rel="noreferrer"> <FaPlayCircle/> </a>
-                                    <a id='git' href={portfolio.github} target='_blank' rel="noreferrer"> <FaGithub/> </a>
+                            <Card.Body class="card-body text-dark">
+                                <Card.Img  fluid id='card-img' variant='top' src={portfolio.img} alt='app screenshot'/>
+                                    <Card.Title>{portfolio.name}</Card.Title>
+                                        <Card.Text>
+                                            <p>
+                                            {portfolio.description}</p>
+                                            <p>
+                                            {portfolio.technology}</p>
+                                        </Card.Text>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <div>
+                                        <a id='deploy' href={portfolio.deployed} target='_blank' rel="noreferrer"> <FaPlayCircle/> </a>
+                                        <a id='git' href={portfolio.github} target='_blank' rel="noreferrer"> <FaGithub/> </a>
+                                        </div>
                                     </div>
-                                </div>
-                                </Card.ImgOverlay>
                             </Card.Body>
-                        
                     </div>
                 </div>
                 ))}

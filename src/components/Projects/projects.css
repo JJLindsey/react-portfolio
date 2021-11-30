@@ -13,9 +13,9 @@
 }
 .card {
     display: flex;
-    align-items: flex-start ;
+    /* align-items: flex-start ; */
     background-color: rgb(244, 246, 249);
-    margin: 10px 0 20px 0;
+    /* margin: 10px 0 20px 0; */
     border: 3px solid rgb(248, 249, 250);
     border-radius: 10px;
     color: var(--light);
@@ -28,22 +28,18 @@
     margin-top: 1rem;
 }
 
-.card-body {
+/* .card-body {
     display:inline;
     min-height: 16rem;
     padding: auto 8px;
-}
+} */
 
 #card-img {
-    margin-top: 55px;
-    max-height: 250px;
-    border-radius: 9%;
+    max-height: 80%;
 }
 
 .card-img-top {
-    min-height: 13rem;
-    max-width: 80%;
-    margin: 5px 5px;
+    max-width:80%;
 }
 
 .card-text {
@@ -58,6 +54,7 @@
 #git {
     color:rgb(255, 130, 20);
 }
+
 
 @media only screen and (min-width: 1200px) {
     .content__blog__container {
