@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ad95a523.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.77fddeea.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.77fddeea.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.50a62945.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.9caeb75d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9caeb75d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.9f257361.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9f257361.js.map",
     "static/css/2.818011ed.chunk.css": "/react-portfolio/static/css/2.818011ed.chunk.css",
-    "static/js/2.3398cb45.chunk.js": "/react-portfolio/static/js/2.3398cb45.chunk.js",
-    "static/js/2.3398cb45.chunk.js.map": "/react-portfolio/static/js/2.3398cb45.chunk.js.map",
+    "static/js/2.eca6a411.chunk.js": "/react-portfolio/static/js/2.eca6a411.chunk.js",
+    "static/js/2.eca6a411.chunk.js.map": "/react-portfolio/static/js/2.eca6a411.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/react-portfolio/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.ad95a523.chunk.css.map": "/react-portfolio/static/css/main.ad95a523.chunk.css.map",
-    "static/js/2.3398cb45.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3398cb45.chunk.js.LICENSE.txt",
+    "static/css/main.50a62945.chunk.css.map": "/react-portfolio/static/css/main.50a62945.chunk.css.map",
+    "static/js/2.eca6a411.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.eca6a411.chunk.js.LICENSE.txt",
+    "static/media/JenniferLindseyDev.91ae04c6.pdf": "/react-portfolio/static/media/JenniferLindseyDev.91ae04c6.pdf",
     "static/media/StateArtScreen.png": "/react-portfolio/static/media/StateArtScreen.d91f4375.png",
     "static/media/TeamProf.png": "/react-portfolio/static/media/TeamProf.0a9af7b0.png",
     "static/media/brewed-force.png": "/react-portfolio/static/media/brewed-force.42d32403.png",
@@ -19,7 +20,6 @@
     "static/media/cartoonJenn2.455b0a67.jpg": "/react-portfolio/static/media/cartoonJenn2.455b0a67.jpg",
     "static/media/index.css": "/react-portfolio/static/media/codePic.046990d4.png",
     "static/media/graphql.1df1397b.png": "/react-portfolio/static/media/graphql.1df1397b.png",
-    "static/media/iPhone13Black.adbcdd4e.png": "/react-portfolio/static/media/iPhone13Black.adbcdd4e.png",
     "static/media/mongo.ad305d61.png": "/react-portfolio/static/media/mongo.ad305d61.png",
     "static/media/node.7e72e1fd.png": "/react-portfolio/static/media/node.7e72e1fd.png",
     "static/media/particles.gif": "/react-portfolio/static/media/particles.676ad74e.gif",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.9f257361.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.3398cb45.chunk.js",
-    "static/css/main.ad95a523.chunk.css",
-    "static/js/main.77fddeea.chunk.js"
+    "static/js/2.eca6a411.chunk.js",
+    "static/css/main.50a62945.chunk.css",
+    "static/js/main.9caeb75d.chunk.js"
   ]
 }
