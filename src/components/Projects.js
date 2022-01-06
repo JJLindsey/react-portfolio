@@ -10,7 +10,7 @@ function Projects() {
             name:'State of the Art',
             description: 'A full stack application that will allow museum curators to locate works of art globally.',
             technology: 'JS, Node, MySQL, Boostrap, Handlebars.js',
-            img: require('../../assets/app-images/StateArtScreen.png').default,
+            img: require('../assets/app-images/StateArtScreen.png').default,
             github: 'https://github.com/JJLindsey/ArtFiles2',
             deployed:'https://state-of-art.herokuapp.com/'
         },
@@ -18,7 +18,7 @@ function Projects() {
             name:'Brewed Force',
             description:'A website designed to unite the beer minded traveler with new breweries and beers in new cities. Search feature returns lists of breweries.',
             technology: 'JS, HTML5, JQuery, Material Design Lite',
-            img:require('../../assets/app-images/brewed-force.png').default,
+            img:require('../assets/app-images/brewed-force.png').default,
             github:'https://github.com/JJLindsey/brewed-force',
             deployed:'https://takes101.github.io/globe-trotting-and-bar-hopping/'
         },
@@ -26,7 +26,7 @@ function Projects() {
             name:'Mindful Pose',
             description:'Meditation app COMING SOON',
             technology: 'ReactJS, Express, MongoDB, HTML, CSS',
-            img:require('../../assets/app-images/particles.gif').default,
+            img:require('../assets/app-images/particles.gif').default,
             github:'',
             deployed:''
         },
@@ -34,7 +34,7 @@ function Projects() {
             name:'Budget Tracker',
             description:'Progressive Web App (PWA).The user can add expenses/deposits to their budget with or without a connection.',
             technology: 'JS, Express, MongoDB, HTML, CSS',
-            img:require('../../assets/app-images/budget.png').default,
+            img:require('../assets/app-images/budget.png').default,
             github:'https://github.com/JJLindsey/budget-tracker',
             deployed:' https://budget-trackerjl.herokuapp.com/'
         },
@@ -42,7 +42,7 @@ function Projects() {
             name:'Team Profile Generator',
             description:'This application allows the user to generate a team profile based on input using Node.js. Dynamically generate HTML to build your Team profile.',
             technology: 'JS, Node, HTML, Boostrap',
-            img:require('../../assets/app-images/TeamProf.png').default,
+            img:require('../assets/app-images/TeamProf.png').default,
             github:'https://github.com/JJLindsey/Team-profile',
             deployed:''
         },
@@ -50,7 +50,7 @@ function Projects() {
             name:'One Stop Print Shop',
             description:'Full Stack E-commerce store with Stripe payment.',
             technology: 'MONGODB, React, Express, Node, Bootstrap, Stripe API',
-            img:require('../../assets/app-images/screenshot.png').default,
+            img:require('../assets/app-images/screenshot.png').default,
             github:'https://github.com/JJLindsey/One-Stop-Print-Shop',
             deployed:'https://one-stop-print-shop.herokuapp.com/'
         }

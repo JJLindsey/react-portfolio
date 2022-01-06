@@ -1,11 +1,12 @@
 .footer-container {
+    margin-top: 100px;
     background-color:rgb(94, 227, 250);
     display: flex;
     flex-direction: row;
     flex: 1;
     justify-content: center;
     padding-top: 1rem;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -14,6 +15,19 @@
     width: 100%
 }
 
+.footer-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    margin: 25px auto 0 auto;
+}
+
+.website-rights{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
 svg {
     font-size: 2rem;
     margin: 0 1 rem;
@@ -21,4 +35,5 @@ svg {
 
 a {
     color:rgb(5, 48, 113);
+    margin: 0 5px 10px 5px;
 }

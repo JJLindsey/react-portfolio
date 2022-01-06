@@ -1,16 +1,16 @@
 import React from "react";
-import { Button,Row } from "react-bootstrap";
-import profileImg from "../../assets/cartoonJenn2.jpg";
+import { Button,Container,Row } from "react-bootstrap";
+import profileImg from "../assets/cartoonJenn2.jpg";
 import './about.css'
-import iconNode from '../../assets/images/node.png'
-import iconReact from '../../assets/images/react.png'
-import iconMongo from '../../assets/images/mongo.png'
-import icongraph from '../../assets/images/graphql.png'
-import resume from '../../assets/JenniferLindseyDev.pdf'
+import iconNode from '../assets/images/node.png'
+import iconReact from '../assets/images/react.png'
+import iconMongo from '../assets/images/mongo.png'
+import icongraph from '../assets/images/graphql.png'
+import resume from '../assets/JLindsey SE.pdf'
 
 function About() {
     return (
-        <div className='container-fluid mx-auto' id='about-info'>
+        <Container className='container-fluid' id='about-info'>
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading text-muted">About Me 
@@ -33,7 +33,7 @@ function About() {
             <Button a href={resume} download='JenniferLindseyDev.pdf' className="btn btn-secondary btn-lg">
                 Download Resume
             </Button>
-        </div>
+        </Container>
     );
 }
 
